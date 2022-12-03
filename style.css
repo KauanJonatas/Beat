@@ -29,7 +29,6 @@ header{
 .containerTEF{
     display: flex;
     align-items: center;
-    border: solid red;
 }
 
 .tituloEFoto{
@@ -37,6 +36,10 @@ header{
     align-items: center;
     margin: 20px;
     font-size: 34px;
+}
+
+.tituloEFoto h1{
+    margin-top: 20px;
 }
 
 .navTop{
@@ -88,13 +91,69 @@ main{
 }
 
 .imagensPort{
-    border: solid blue;
-    padding: 30px;
-    
+    padding-left: 30px;
 }
 
-footer{
+.imagensPort img{
+    margin: 10px;
+
+}
+
+.vejaMais{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.vejaMais a{
+    font-weight: bold;
+    color: black;
+}
+
+
+
+footer {
     min-height: 160px;
     background-color: #129799;
+    display: flex;
+    align-items: center;
 }
+
+.redes{
+    margin-left: 100px;
+    width: 300px;
+}
+
+.navRedes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    display: flex;
+    height: 160px;
+    width: 100%;
+    justify-content: end;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-right: 100px;
+}
+
+.navBottom ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    flex-direction: row;
+    font-size: 24px;
+    width: 100%;
+}
+
+
+
 
